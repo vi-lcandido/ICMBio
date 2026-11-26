@@ -1,5 +1,6 @@
-pandas
-matplotlib
-notebook
-openpyxl
-python-calamine
+# Python 3.12 ou superior
+pandas>=2.2,<4
+matplotlib>=3.8
+notebook>=7.0
+openpyxl>=3.1
+python-calamine>=0.1.7
