@@ -1,4 +1,4 @@
-# Indicadores – Pesca e Aquicultura (RESEX/UCs)
+# Indicadores – Pesca e Aquicultura (UCs)
 
 Caderno Jupyter que lê a planilha consolidada de cadastro das famílias de Unidades de Conservação (UCs/RESEX) e calcula indicadores de **pesca** e **aquicultura**, com recorte por **sexo** e por posse do **RGP** (Registro Geral da Atividade Pesqueira). Ao final, gera um quadro-resumo, gráficos (`.png`) e uma planilha Excel com os resultados.
 
@@ -56,14 +56,10 @@ Apenas pessoas com idade mínima de 18 anos (configurável) entram na contagem d
 git clone <url-do-repositorio>
 cd <pasta-do-repositorio>
 
-python -m venv .venv
+py -3.12 -m venv .venv
 
 # Windows (PowerShell)
 .venv\Scripts\Activate.ps1
-# Windows (cmd)
-.venv\Scripts\activate.bat
-# Linux / macOS
-source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
